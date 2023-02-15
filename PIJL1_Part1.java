@@ -71,7 +71,7 @@ public class PIJL1_Part1 {
 	private static int inputSC() throws IOException {
 		Scanner sc = new Scanner(System.in);
 		int toReturn = sc.nextInt();
-//		sc.close();
+		sc.close();
 		return toReturn;
 		
 	}
